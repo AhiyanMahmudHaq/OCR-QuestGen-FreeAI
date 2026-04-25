@@ -138,6 +138,7 @@ def generate_study_material():
     time.sleep(DELAY_BETWEEN_CALLS)
 
 if __name__ == "__main__":
+    # This is PURELY "VIBE-CODED" and this version is a prototype
     # In a real daemon/workflow, you'd wrap this in a while True loop. 
     # For safe vibe-coding, running it once per manual trigger is recommended first.
     generate_study_material()
